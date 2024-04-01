@@ -1,15 +1,11 @@
-# cicd-pipeline-train-schedule-git
+# sonar-dummy-oss
 
-This is a simple train schedule app written using nodejs. It is intended to be used as a sample application for a series of hands-on learning activities.
+A sample project used for testing purposes.
 
-## Running the app
+This project uses **gradle** and **is published on Maven central**.
 
-It is not necessary to run this app locally in order to complete the learning activities, but if you wish to do so you will need a local installation of npm. Begin by installing the npm dependencies with:
+Javadoc is automatically deployed [here](https://javadocs.sonarsource.org/?prefix=sonar-dummy-oss/)
+when the project is released.
 
-    npm install
-
-Then, you can run the app with:
-
-    npm start
-
-Once it is running, you can access it in a browser at [http://localhost:3000](http://localhost:3000)
+Looking for one not published on Maven Central?
+Please have a look at [sonar-dummy (use maven)](https://github.com/SonarSource/sonar-dummy).
